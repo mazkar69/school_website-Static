@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMS NOIDA </title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            
+        }
+        body{
+            background-color: silver;
+            font-family: cursive;
+
+        }
+        header{
+            background-color: black;
+            color: white;
+            text-align: center;
+        }
+        header h1{
+            color: #ffff00;
+            font-size: 250%;
+        }
+        header h2{
+            font-style: italic;
+            font-weight: normal;
+        }
+        #sitenav{
+            margin-top: 4px;
+            background-color: #404;
+            padding: 10px;
+        }
+        #sitenav ul{
+            display: inline;
+            padding: 0px;
+            margin: opx;
+            font-size: 90%;
+        }
+        #sitenav li{
+            display: inline;
+            text-decoration: none;
+            padding-left: 1rem;
+            margin-left: 1rem;
+            border-left: 1px solid white;
+        }
+        #sitenav li a{
+            color: white;
+            text-transform: none;
+            
+        }
+        #sitenav li a:hover{
+            color: black;
+            background-color: white;
+            border-radius: 12px;
+            padding: 2px;
+        }
+        #sitenav li:first-child{
+            border-left: none;
+            padding-left: 0px;
+            margin-left: 0px;
+        }
+        #main{
+            /* background-color: grey; */
+            background-color: rgb(180, 110, 69);
+            position: relative;
+            padding: 0em 12em 2em 2em;
+
+        }
+        #content{
+            background-color: white;
+            padding: 1em 5em;
+            text-align: center;
+            
+            
+        }
+        #content h3{
+            margin-top: 0;
+        }
+        .welcome{
+            font-size: 240%;
+            text-decoration: underline;
+        }
+        p{
+            font-size: 90%;
+            line-height: 1.4;
+        }
+        #sidebar{
+            position: absolute;
+            width: 10em;
+            right: 1em;
+            top: 1em;
+
+        }
+        #sidebar h3{
+            color: white;
+            background-color: black;
+            padding: 4px;
+
+        }
+        #sidebar ul{
+            margin: 0 0 1em 0;
+            background-color: white;
+            border: 2px solid black;
+            margin-top:5px;
+            padding: 12px;
+            height: 150px;
+
+        }
+    #sidebar ul li{
+        text-decoration: none;
+        list-style: none;
+        margin-top: 2px;
+        padding: 3px;
+    }
+    #sidebar ul li a{
+        text-decoration: none;
+        color: black;
+        font-family: fantasy;
+    }
+    #sidebar a:hover{
+   text-decoration: underline;
+   color: red;
+
+    }
+        img{
+            width:70%;
+            height: 50%;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>
+           INSTITUTE OF MANAGEMENT STUDIES
+        </h1>
+        <H2>A-88,IMS CAMPUS,SECTOR 62 <BR>NOIDA-201 303(U.P.)</H2>
+        <nav id="sitenav">
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About school</a></li>
+                <li><a href="">Members</a></li>
+                <li><a href="">Event</a></li>
+                <li><a href="">Photo Album</a></li>
+                <li><a href="">Resources</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <div id="main">
+        <article id="content">
+            <h3 class="welcome">WELCOME TO IMS NOIDA</h3>
+            <img src="ims.jpg" alt="img">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur explicabo quos unde impedit, expedita nihil voluptates eum, ipsam nesciunt fuga incidunt. Eius inventore cum earum in excepturi praesentium eligendi ullam. Molestias eveniet nisi a. Quam, quaerat doloremque veritatis dolorum rerum ducimus incidunt eveniet. Impedit nulla, sed tempora iste molestiae enim.</p>
+
+        </article>
+
+
+        <aside id="sidebar">
+        <h3>IMS Project </h3>
+        <ul>
+            <li><a href="">School history</a></li>
+            <li><a href="">Project proposal</a></li>
+            <li><a href="">Faculty</a></li>
+            <li><a href="">Staff Members</a></li>
+            <li><a href="">School Plan</a></li>
+        </ul>
+        <h3>Services</h3>
+        <ul>
+            <li><a href="">About Lab's</a></li>
+            <li><a href="">Transport Facility</a></li>
+            <li><a href="">Fee Structure</a></li>
+           
+            <li><a href="">Admission Process</a</li>
+        </ul>
+    </aside>
+    </div>
+</body>
+</html>
